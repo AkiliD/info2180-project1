@@ -74,8 +74,33 @@ nav ul li a{
 }
 
 .cards{
-    border: 1px solid #ccc;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height:500px;
+    width: 400px;
+    justify-content: space-between;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    
+}
+
+.card img{
+    width: auto;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
 }
