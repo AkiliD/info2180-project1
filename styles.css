@@ -72,3 +72,10 @@ nav ul li a{
     border-radius: 50%;
     object-fit: cover;
 }
+
+.cards{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
