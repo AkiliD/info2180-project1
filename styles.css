@@ -165,3 +165,27 @@ nav ul li a{
     height: 200px;
     width:100%;
 }
+
+.article-body{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#Damson{
+    height:200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    float: inline-start;
+}
+
+#Labtec{
+    height:200px;
+    width: 200px;
+    object-fit:cover;
+    border-radius: 50%;
+    float:inline-start;
+}
+
