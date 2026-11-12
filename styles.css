@@ -151,6 +151,10 @@ nav ul li a{
 
 }
 
+.testing-desciption h2{
+    color: white;
+}
+
 
 .cta{
     background-color: gray;
@@ -159,17 +163,25 @@ nav ul li a{
 }
 
 .cta .btn {
-    display: inline-block;
-    padding: 10px 20px;
+    display: flex;
     background-color: #333;
     color: #fff;
-    text-decoration: none;
+    text-decoration:none;
+    text-align: center;
     border-radius: 4px;
-    padding-top: 20%;
+    margin-top: 60px;
+    margin-left: 100px;
+    padding:5px;
+    font-style: bold;
+}
+
+.cta a{
+    text-align: center;
+
 }
 
 .newsletter{
-    background-color: green;
+    background-color: rgba(22, 173, 80, 0.963);
     height: 200px;
     width:100%;
 }
@@ -207,13 +219,34 @@ nav ul li a{
 
 .newsletter .container h3{
     text-align: center;
+    padding-top: 20px;
 
 }
 
   .newsletter .container p{
     text-align: center;
+}
+
+#email{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.container .btn{
+    height: 50px;
+    width: 155px;
+    background-color: rgb(0, 157, 255);
+    display: inline-block;
+    border-radius: 5px;
+    
 
 }
+
+
 
 
 
