@@ -17,6 +17,15 @@ header .container {
     align-items: center;
 }
 
+h1{
+    font-size: 18px;
+    margin: 25px ;
+}
+
+h2{
+    font-size: 18px;
+}
+
 /* Navigation Styles */
 nav{
     background-color: white;
@@ -38,6 +47,7 @@ nav ul li a{
     text-decoration: none;
     color: #333;
     padding: 10px;   
+    font-size: 18px;
 }
 
 .overview-hero {
