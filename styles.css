@@ -159,3 +159,9 @@ nav ul li a{
     border-radius: 4px;
     padding-top: 20%;
 }
+
+.newsletter{
+    background-color: green;
+    height: 200px;
+    width:100%;
+}
