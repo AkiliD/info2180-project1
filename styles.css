@@ -7,8 +7,58 @@ body {
 
 .container {
     margin: 0 ;
-    max-width: 1200px;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navigation Styles */
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    padding: 10px;   
+}
+
+.overview-hero {
+    background-color: rgb(210, 208, 208);
+    padding: 20px 0;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: transparent;
+}
+
+.overview-hero-image {
+    display: flex;
+}
+
+#YogaLady {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
