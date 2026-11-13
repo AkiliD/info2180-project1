@@ -52,6 +52,12 @@ nav ul li a{
     color: #333;
     padding: 10px;   
     font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 157, 255);
+    transition: color 0.2s ease;
 }
 
 .overview-hero {
@@ -180,7 +186,8 @@ nav ul li a{
 
 .newsletter{
     background-color: rgba(22, 173, 80, 0.963);
-    height: 200px;
+    height: auto;
+    padding: 40px 0;    
     width:100%;
 }
 
@@ -259,9 +266,38 @@ nav ul li a{
     box-sizing: border-box;
 }
     
-
+footer {
+    background-color: #4d4848; 
+    color: #000000;
+    height: 40px;
 }
 
+footer p {
+    margin: 0;             
+    text-align: left;
+    padding-top: 15px;
+    color: white;
+}
+.learn-about h2,
+.card-body h3 {
+    color: #2e7d32; 
+}
+
+
+.stories h2 {
+    color: #b57edc; 
+}
+
+.stories article a {
+    color: #b57edc;
+    text-decoration: none;
+}
+
+
+nav ul li:first-child a {
+    color: #b57edc;
+    text-decoration: none;
+}
 
 
 
